@@ -1,51 +1,56 @@
-partID,title,optA,optB,optC,optD,correct
-0,Trung thể thường nằm ở vị trí nào trong tế bào?,Gần nhân,Trong màng sinh chất,Trong ti thể,Trong nhân,A
-0,Cấu trúc cơ bản của trung thể gồm:,2 trung tử vuông góc,2 màng kép,9 sợi actin,1 màng lipid,A
-0,Trung thể tham gia trực tiếp vào quá trình:,Quang hợp,Phân bào,Dịch mã,Tiêu hóa,B
-0,"Trong tế bào không có trung thể, hiện tượng nào có thể bị rối loạn?",Tổng hợp protein,Hô hấp tế bào,Phân chia nhiễm sắc thể,Trao đổi chất,C
-0,Trung thể thuộc loại bào quan:,Có màng,Không có màng,Màng kép,Màng đơn,B
-1,Lysosome có chứa loại enzyme chủ yếu nào?,Enzyme hô hấp,Enzyme tiêu hóa,Enzyme tổng hợp protein,Enzyme xúc tác ATP,B
-1,Lysosome được hình thành từ:,Ribosome,Bộ máy Golgi,Lưới nội chất trơn,Trung thể,B
-1,Môi trường bên trong lysosome có tính:,Kiềm,Axit,Trung tính,Mặn,B
-1,Lysosome có thể “tự tiêu” tế bào khi:,Enzyme rò rỉ ra tế bào chất,Nhân vỡ,Màng Golgi mất chức năng,Ti thể ngừng hoạt động,A
-1,Chức năng không thuộc lysosome là:,Phân hủy tế bào già,Tiêu hóa nội bào,Tổng hợp protein,Tiêu hóa vật chất lạ,C
-2,Ribosome là bào quan:,Có màng,Không có màng,Màng kép,Màng đơn,B
-2,Thành phần chính của ribosome gồm:,Lipid và protein,rRNA và protein,DNA và lipid,Enzyme và carbohydrate,B
-2,Ribosome tự do tổng hợp:,Protein tiết ra ngoài,Protein sử dụng trong tế bào,Enzyme tiêu hóa,Protein màng,B
-2,Ribosome bám trên lưới nội chất hạt tổng hợp:,Protein màng và tiết,Enzyme tiêu hóa,DNA nhân,Axit amin,A
-2,Ribosome được tạo thành tại:,Nhân con,Ti thể,Golgi,Lysosome,A
-3,Nhân tế bào được bao quanh bởi:,Màng đơn,Màng kép có lỗ nhân,Màng đơn có ribosome,Màng lipid kép kín,B
-3,Chức năng chính của nhân:,Dự trữ năng lượng,Điều khiển mọi hoạt động tế bào,Tổng hợp protein,Phân giải chất độc,B
-3,Trong nhân con diễn ra quá trình:,Tạo rRNA và ribosome,Phân giải DNA,Tổng hợp lipid,Hình thành lysosome,A
-3,DNA nhân tồn tại dưới dạng:,Sợi xoắn RNA,Nhiễm sắc chất,Enzyme,Axit amin,B
-3,Nhân vỡ ra trong giai đoạn nào của phân bào?,Kỳ giữa,Kỳ đầu,Kỳ sau,Kỳ cuối,B
-4,Ti thể có mấy lớp màng?,1,2,3,Không có,B
-4,Nếp gấp trong màng trong ti thể gọi là:,Mào ti thể,Vi ống,Lưới màng,Thể vùi,A
-4,Ti thể là nơi diễn ra:,Quang hợp,Hô hấp hiếu khí,Tổng hợp protein,Tiêu hóa,B
-4,Chất nền của ti thể chứa:,DNA và ribosome riêng,Enzyme tiêu hóa,Sắc tố diệp lục,Dầu và tinh bột,A
-4,Năng lượng từ ti thể chủ yếu ở dạng:,Glucose,ATP,ADP,CO2,B
-5,Lưới nội chất chia thành:,Hạt và trơn,Dày và mỏng,Trong và ngoài,Kép và đơn,A
-5,Lưới nội chất hạt có chức năng:,Tổng hợp lipid,Tổng hợp protein,Tiêu hóa nội bào,Tạo năng lượng,B
-5,Lưới nội chất trơn có vai trò:,Tổng hợp protein,"Tổng hợp lipid, khử độc",Tạo năng lượng,Phân giải đường,B
-5,Ribosome bám vào lưới nội chất nhờ:,Màng đôi,Thụ thể đặc hiệu,Enzyme tiêu hóa,Lipid,B
-5,Lưới nội chất liên hệ trực tiếp với:,Nhân và Golgi,Ti thể,Không bào,Lysosome,A
-6,Không bào trong tế bào động vật thường:,Lớn và chiếm phần lớn tế bào,"Nhỏ, tạm thời",Có diệp lục,Có màng kép,B
-6,Màng bao quanh không bào gọi là:,Tonoplast,Lysosome,Ribosome,Endosome,A
-6,Chức năng của không bào:,Tổng hợp protein,"Dự trữ, tiêu hóa, điều hòa áp suất",Quang hợp,Tạo năng lượng,B
-6,"Ở động vật đơn bào, không bào co bóp giúp:",Hấp thu năng lượng,Bài tiết nước dư,Tổng hợp lipid,Cố định CO2,B
-6,Không bào được hình thành từ:,Lysosome và Golgi,Ti thể,Nhân,Trung thể,A
-7,Peroxisome chứa enzyme:,Catalase,Lipase,Amylase,Pepsin,A
-7,Chức năng của peroxisome là:,Tạo ATP,Phân giải H2O2,Tổng hợp protein,Tiêu hóa tế bào,B
-7,Sản phẩm của enzyme catalase là:,H2O và O2,CO2 và ATP,Glucose và nước,Protein,A
-7,Peroxisome có nguồn gốc từ:,Lưới nội chất,Nhân,Ti thể,Lysosome,A
-7,Peroxisome khác lysosome ở chỗ:,Có enzyme tiêu hóa,"Có catalase, hoạt động ở môi trường trung tính",Có màng kép,Có DNA riêng,B
-8,Cấu trúc chính của bộ máy Golgi gồm:,Túi dẹt xếp chồng,Ống xoắn,Chuỗi cầu nối,Màng kép,A
-8,Golgi có vai trò:,Tổng hợp lipid,"Biến đổi, đóng gói, phân phối sản phẩm",Phân giải ATP,Tổng hợp RNA,B
-8,Protein từ lưới nội chất được chuyển đến Golgi qua:,Túi vận chuyển,Trung thể,Lysosome,Màng nhân,A
-8,Golgi tạo ra:,Lysosome,Ti thể,Nhân con,Ribosome,A
-8,Bộ máy Golgi nằm gần:,Nhân,Màng tế bào,Trung thể,Ti thể,A
-9,Tế bào chất là:,Môi trường chứa các bào quan,Thành tế bào,Màng tế bào,Nhân,A
-9,Thành phần chính của tế bào chất:,"Nước, muối, protein","Chất béo, sợi actin","DNA, RNA",Carbohydrate,A
-9,Dịch tế bào còn gọi là:,Tế bào tương,Chất gian bào,Nhân con,Nhiễm sắc chất,A
-9,Trong tế bào chất diễn ra:,Giai đoạn đầu của hô hấp tế bào,Tổng hợp DNA,Nhân đôi nhiễm sắc thể,Tạo ribosome,A
-9,Tính chất vật lý của tế bào chất là:,Chất rắn,Keo đặc,Chất khí,Dung dịch tinh khiết,B
+partId,title,optA,optB,optC,optD,correct
+1,Đặc điểm nào sau đây mô tả đúng nhất về cấu trúc màng bao bọc nhân của tế bào nhân thực?,"Là lớp màng phospholipid đơn, trên màng có đính các ribosome.","Là lớp màng phospholipid kép, trên màng có các lỗ nhân.","Là lớp màng phospholipid kép, bao bọc kín hoàn toàn khối dịch nhân.","Là lớp màng phospholipid đơn, trên màng có các lỗ liên thông.",B
+1,"Trong nhân tế bào, cấu trúc hạch nhân (nhân con) đảm nhiệm chức năng chủ yếu nào sau đây?",Tổng hợp phân tử DNA và điều khiển sự phân chia tế bào.,Tổng hợp các loại lipid màng để cung cấp cho tế bào.,Tổng hợp rRNA và lắp ráp các tiểu đơn vị của ribosome.,Tổng hợp và phân giải các chất độc hại xâm nhập vào nhân.,C
+1,Chất nhiễm sắc (chromatin) được cấu tạo từ hai thành phần sinh học chủ yếu nào sau đây?,Phân tử RNA và các cấu trúc protein loại phi histone.,Phân tử carbohydrate và các cấu trúc protein màng.,Phân tử phospholipid và các hệ thống enzyme thủy phân.,Phân tử DNA và các cấu trúc protein loại histone.,D
+1,Nhận định nào sau đây phản ánh đúng và bao quát nhất vai trò của nhân đối với tế bào nhân thực?,Là trung tâm lưu trữ thông tin di truyền và điều khiển mọi hoạt động sống.,Là nơi trực tiếp tổng hợp mọi loại protein để cấu tạo nên cơ thể sinh vật.,Là trung tâm phân giải các hợp chất hữu cơ để cung cấp năng lượng.,Là nơi tiếp nhận và truyền tín hiệu từ môi trường bên ngoài vào tế bào.,A
+1,Nếu người ta dùng vi kim loại bỏ nhân ra khỏi một tế bào động vật thì hiện tượng nào sau đây có khả năng xảy ra cao nhất?,Tế bào sẽ phát triển mạnh mẽ hơn do không phải tiêu tốn năng lượng nuôi nhân.,Tế bào sẽ ngay lập tức phân chia để tự tổng hợp lại một nhân mới.,"Tế bào sẽ mất khả năng sinh trưởng, ngừng hoạt động và chết sau một thời gian.",Tế bào vẫn sống bình thường nhưng hoàn toàn mất đi khả năng di chuyển.,C
+2,Bào quan ribosome được cấu tạo từ hai thành phần sinh hóa chủ yếu nào sau đây?,Phân tử DNA và các protein loại histone.,Phân tử rRNA (RNA ribosome) và các protein.,Lớp màng phospholipid và hệ thống enzyme.,Phân tử mRNA (RNA thông tin) và các amino acid.,B
+2,Đặc điểm nào sau đây phản ánh đúng nhất về cấu trúc màng của bào quan ribosome?,Là bào quan được bao bọc bởi một lớp màng kép.,Là bào quan được bao bọc bởi một lớp màng đơn.,Là bào quan hoàn toàn không có màng bao bọc.,Là bào quan có màng gấp nếp tạo thành các túi dẹt.,C
+2,"Trong tế bào, bào quan ribosome đảm nhiệm chức năng sinh lí chủ yếu nào sau đây?",Chuyên tổng hợp các loại lipid và phân giải chất độc.,Chuyên phân giải các chất hữu cơ để cung cấp năng lượng.,Chuyên đóng gói và phân phối các sản phẩm tiết của tế bào.,Chuyên xúc tác và lắp ráp các amino acid để tổng hợp protein.,D
+2,"Ở tế bào nhân thực, bào quan ribosome KHÔNG được tìm thấy ở vị trí nào sau đây?",Nằm lơ lửng tự do trong dịch của tế bào chất.,Nằm đính trên màng của hệ thống lưới nội chất hạt.,Nằm bên trong chất nền của ti thể và lục lạp.,Nằm đính trên màng của hệ thống lưới nội chất trơn.,D
+2,Nhiều loại thuốc kháng sinh ức chế đặc hiệu hoạt động của bào quan ribosome. Điều này làm vi khuẩn chết do nguyên nhân trực tiếp nào sau đây?,"Vi khuẩn bị vỡ màng tế bào, rò rỉ vật chất di truyền ra ngoài.",Vi khuẩn không thể tổng hợp được các protein thiết yếu cho sự sống.,Vi khuẩn không thể nhân đôi phân tử DNA để thực hiện phân bào.,Vi khuẩn không thể hấp thụ được các chất dinh dưỡng từ môi trường.,B
+3,Đặc điểm cấu trúc nào sau đây là điểm chung của cả lưới nội chất hạt và lưới nội chất trơn trong tế bào nhân thực?,Đều có đính các hạt ribosome trên bề mặt màng.,Đều là hệ thống màng đơn gấp nếp tạo thành các xoang và ống.,Đều chứa hệ thống enzyme chuyên phân giải các chất độc hại.,Đều nằm lơ lửng biệt lập và không liên kết với màng nhân.,B
+3,"Trong tế bào động vật, lưới nội chất hạt (rough ER) đảm nhiệm chức năng sinh lí chủ yếu nào sau đây?",Tổng hợp các loại lipid cấu tạo nên màng sinh chất.,Chuyển hóa năng lượng hóa học thành năng lượng ATP.,Tổng hợp các protein tiết ra ngoài tế bào và protein cấu tạo màng.,Phân giải các chất độc hại xâm nhập vào cơ thể sinh vật.,C
+3,Quá trình sinh lí nào sau đây diễn ra chủ yếu tại hệ thống lưới nội chất trơn (smooth ER) của tế bào?,Lắp ráp các amino acid thành chuỗi polypeptide dài.,"Tiếp nhận, gia công và đóng gói các sản phẩm tiết.",Phân giải hợp chất glucose để giải phóng năng lượng.,"Tổng hợp lipid, chuyển hóa đường và khử độc tế bào.",D
+3,"Dựa vào chức năng sinh lí của lưới nội chất trơn, loại tế bào nào sau đây trong cơ thể người thường có hệ thống bào quan này phát triển phong phú nhất?",Tế bào biểu bì da.,Tế bào hồng cầu trưởng thành.,Tế bào gan.,Tế bào cơ tim.,C
+3,Tế bào bạch cầu (chuyên sản xuất và tiết ra lượng lớn kháng thể có bản chất là protein) thường có bào quan nào sau đây phát triển đặc biệt mạnh mẽ?,Lưới nội chất hạt.,Lưới nội chất trơn.,Bào quan lysosome.,Bào quan không bào.,A
+4,"Trong tế bào động vật, trung thể thường phân bố ở vị trí nào sau đây?","Nằm trong tế bào chất, ở vị trí gần nhân.",Nằm trôi nổi tự do bên trong dịch nhân.,Nằm đính trên hệ thống lưới nội chất hạt.,Nằm bám ở mặt trong của màng sinh chất.,A
+4,Cấu tạo của một trung thể bao gồm,một túi màng chứa hệ enzyme thủy phân.,hai trung tử xếp thẳng góc với nhau.,hai trung tử xếp song song với nhau.,một hệ thống mạng lưới vi sợi đan chéo.,B
+4,Chức năng chủ yếu của trung thể trong tế bào động vật là,tổng hợp các loại protein tiết.,cung cấp năng lượng cho tế bào.,tham gia hình thành thoi phân bào.,tiêu hóa các bào quan già cỗi.,C
+4,"Nếu trung thể trong tế bào động vật bị mất chức năng, quá trình sinh lí nào sau đây sẽ bị ảnh hưởng trực tiếp nhất?",Sự tổng hợp và bài xuất các protein tiết.,Sự trao đổi chất qua màng sinh chất.,Sự chuyển hóa năng lượng trong ti thể.,Sự phân li của nhiễm sắc thể về hai cực tế bào.,D
+4,Đặc điểm nào sau đây là đúng khi nói về cấu trúc màng của trung thể?,Là bào quan không có màng bao bọc.,Là bào quan có lớp màng đơn bao bọc.,Là bào quan có lớp màng kép bao bọc.,Là bào quan được cấu tạo từ màng sinh chất.,A
+5,Đặc điểm nào sau đây mô tả đúng nhất về cấu trúc màng bao bọc của ti thể?,"Lớp màng ngoài gấp nếp, lớp màng trong trơn nhẵn.","Cả hai lớp màng đều trơn nhẵn, bao bọc chất nền.","Lớp màng ngoài trơn nhẵn, lớp màng trong gấp nếp.",Cả hai lớp màng đều gấp nếp tạo thành các mào.,C
+5,Bào quan ti thể đảm nhiệm chức năng sinh lí chủ yếu nào sau đây trong tế bào?,Tổng hợp chất hữu cơ từ năng lượng ánh sáng mặt trời.,Phân giải chất hữu cơ để tạo ra năng lượng dưới dạng ATP.,"Bao gói, sửa đổi và phân phối các protein tiết của tế bào.",Tiêu hóa nội bào các cấu trúc già cỗi và vật chất ngoại lai.,B
+5,Việc màng trong của ti thể gấp nếp tạo thành các mào (cristae) mang lại ý nghĩa sinh lý chủ yếu nào sau đây?,Tăng diện tích bề mặt để chứa hệ thống các enzyme hô hấp.,Tạo ra không gian rộng rãi để lưu trữ phân tử DNA và ribosome.,Ngăn chặn sự xâm nhập của các virus vào bên trong chất nền ti thể.,Giúp ti thể dễ dàng thay đổi hình dạng và di chuyển trong tế bào.,A
+5,Bên trong chất nền (matrix) của ti thể có chứa các thành phần đặc trưng nào sau đây giúp chúng có khả năng tự nhân đôi độc lập với nhân tế bào?,Phân tử DNA mạch thẳng và bộ máy Golgi.,Hệ thống lưới nội chất và các enzyme thủy phân.,Phân tử DNA dạng vòng và các ribosome.,Hạt hạch nhân và hệ thống khung xương tế bào.,C
+5,"Dựa vào chức năng của ti thể, trong cơ thể người, loại tế bào nào sau đây thường có số lượng ti thể nhiều nhất?",Tế bào biểu bì ở da.,Tế bào cơ tim.,Tế bào mỡ dự trữ.,Tế bào sụn ở khớp.,B
+6,Đặc điểm nào sau đây phản ánh đúng nhất về cấu trúc màng bao bọc của bào quan peroxisome?,Là bào quan được bao bọc bởi một lớp màng phospholipid kép.,Là bào quan hoàn toàn không có màng phospholipid bao bọc.,Là bào quan được bao bọc bởi một lớp màng phospholipid đơn.,Là bào quan có màng gấp nếp tạo thành các túi dẹt xếp chồng.,C
+6,Peroxisome là bào quan chứa hệ enzyme đặc thù đảm nhiệm chức năng sinh lí chủ yếu nào sau đây?,Enzyme thủy phân để tiêu hóa các bào quan già cỗi và vật chất ngoại lai.,Enzyme xúc tác phân giải chất độc và phân giải các acid béo chuỗi dài.,Enzyme tổng hợp ATP để cung cấp năng lượng cho mọi hoạt động sống.,Enzyme xúc tác tổng hợp các loại lipid cấu tạo nên màng sinh chất.,B
+6,"Ở tế bào thực vật, bào quan peroxisome thường phân bố gần sát và phối hợp hoạt động trực tiếp với những bào quan nào sau đây?",Ti thể và lục lạp.,Lưới nội chất và bộ máy Golgi.,Ribosome và hạch nhân.,Không bào và trung thể.,A
+6,Bào quan peroxisome phát triển phong phú nhất ở loại tế bào nào sau đây trong cơ thể người?,Tế bào thần kinh.,Tế bào cơ tim.,Tế bào biểu bì da.,Tế bào gan.,D
+6,"Khi so sánh peroxisome và lysosome, phát biểu nào sau đây chỉ ra sự khác biệt cơ bản nhất về cơ chế hoạt động giữa hai bào quan này?","Lysosome có màng kép bao bọc, trong khi peroxisome chỉ có màng đơn.","Lysosome thực hiện tiêu hóa nội bào, trong khi peroxisome chuyên phân giải protein tiết.","Lysosome chứa các enzyme thủy phân, trong khi peroxisome chứa các enzyme oxy hóa.","Lysosome có khả năng tự nhân đôi, trong khi peroxisome được sinh ra từ nhân tế bào.",C
+7,Bào quan lysosome chứa chủ yếu loại enzyme nào sau đây?,Enzyme phân giải ATP.,Enzyme tổng hợp protein.,Enzyme thủy phân.,Enzyme hô hấp tế bào.,C
+7,Bào quan lysosome được hình thành trực tiếp từ cấu trúc nào sau đây?,Lưới nội chất hạt.,Bộ máy Golgi.,Lưới nội chất trơn.,Trung thể.,B
+7,Môi trường bên trong của lysosome thường duy trì ở trạng thái nào sau đây để các enzyme hoạt động tối ưu?,Môi trường kiềm.,Môi trường trung tính.,Môi trường bão hòa muối.,Môi trường axit.,D
+7,"Hiện tượng ""tự tiêu"" (autolysis) của tế bào có thể xảy ra trong trường hợp nào sau đây?","Nhân tế bào bị vỡ màng, làm rò rỉ vật chất di truyền.","Màng của nhiều lysosome đồng loạt bị vỡ, giải phóng enzyme vào tế bào chất.",Bộ máy Golgi mất chức năng đóng gói sản phẩm.,Ti thể ngừng cung cấp năng lượng ATP cho tế bào.,B
+7,Phát biểu nào sau đây KHÔNG phản ánh đúng chức năng của lysosome?,Tiêu hóa nội bào các thức ăn được đưa vào tế bào.,"Phân hủy các bào quan già cỗi, tổn thương.",Tham gia trực tiếp vào quá trình tổng hợp protein tiết.,Tiêu diệt các tế bào bị bệnh hoặc vi khuẩn xâm nhập.,C
+8,Bào quan không bào được bao bọc bởi cấu trúc màng nào sau đây?,Một lớp màng.,Hai lớp màng.,Ba lớp màng.,Không có màng bao bọc.,A
+8,Khoang bên trong màng của bào quan không bào có chứa thành phần nào sau đây?,Dịch nhân.,Lõi tinh thể cứng.,Dịch không bào.,Phân tử DNA.,C
+8,"Khi quan sát dưới kính hiển vi, đặc điểm cấu trúc không bào ở tế bào thực vật trưởng thành là gì?",Có rất nhiều không bào nhỏ li ti.,Có một không bào trung tâm kích thước rất lớn.,Hoàn toàn không có không bào.,Không bào xếp thành chuỗi dài nối với nhau.,B
+8,"Ở tế bào thực vật trưởng thành, không bào trung tâm lớn đến mức nó gây ra hiện tượng nào sau đây đối với các cấu trúc khác trong tế bào?",Tiêu hủy hoàn toàn nhân tế bào.,Hút toàn bộ lục lạp vào bên trong nó.,Đẩy nhân và các bào quan khác ép sát vào màng sinh chất.,Xuyên thủng màng sinh chất để nhô ra ngoài.,C
+8,"So sánh cấu trúc không bào giữa tế bào động vật và tế bào thực vật, phát biểu nào sau đây là đúng nhất?","Tế bào thực vật có không bào lớn, tế bào động vật có không bào nhỏ hoặc không có.","Tế bào động vật có không bào lớn, tế bào thực vật có không bào nhỏ hoặc không có.",Cả hai loại tế bào đều luôn có không bào trung tâm khổng lồ.,Cả hai loại tế bào đều hoàn toàn không có bào quan không bào.,A
+9,Cấu trúc chính của bộ máy Golgi gồm:,Túi dẹt xếp chồng.,Ống xoắn.,Chuỗi cầu nối.,Màng kép.,A
+9,Golgi có vai trò:,Tổng hợp lipid.,"Biến đổi, đóng gói, phân phối sản phẩm.",Phân giải ATP.,Tổng hợp RNA.,B
+9,Protein từ lưới nội chất được chuyển đến Golgi qua:,Túi vận chuyển.,Trung thể.,Lysosome.,Màng nhân.,A
+9,Golgi tạo ra:,Lysosome.,Ti thể.,Nhân con.,Ribosome.,A
+9,Bộ máy Golgi nằm gần:,Nhân.,Màng tế bào.,Trung thể.,Ti thể.,A
+10,"Ở tế bào nhân thực, tế bào chất là vùng không gian được giới hạn bởi hai cấu trúc nào sau đây?",Màng sinh chất và màng nhân.,Thành tế bào và màng sinh chất.,Màng nhân và vùng dạng nhân.,Màng sinh chất và các bào quan.,A
+10,Tế bào chất của sinh vật nhân thực bao gồm hai thành phần cấu trúc cơ bản nào sau đây?,Dịch nhân và mạng lưới nhiễm sắc thể.,Bào tương (cytosol) và hệ thống các bào quan.,Khung xương tế bào và dịch ngoại bào.,Hệ thống màng nội bào và các hạt tiết.,B
+10,Bào tương (cytosol) trong tế bào chất chủ yếu đảm nhiệm vai trò sinh lí nào sau đây đối với tế bào?,Trực tiếp phân loại và đóng gói các sản phẩm tiết.,Lưu trữ toàn bộ thông tin di truyền của sinh vật.,Tiếp nhận các tín hiệu hóa học từ môi trường.,Là nơi diễn ra nhiều phản ứng chuyển hóa nội bào.,D
+10,"Về mặt trạng thái vật lí, bào tương (thành phần chính của tế bào chất) tồn tại chủ yếu ở dạng nào sau đây?",Dạng tinh thể rắn chắc.,Dạng dung dịch keo bán lỏng.,Dạng khí lơ lửng.,Dạng vô định hình phân cực.,B
+10,"Hệ thống vi ống, vi sợi và sợi trung gian nằm đan xen trong dịch bào tương của tế bào chất ở động vật được gọi là",hệ thống nội màng.,trung tâm tổ chức vi ống.,bộ máy thoi phân bào.,khung xương tế bào.,D
+11,"Theo mô hình ""khảm - động"" (fluid mosaic), thành phần cấu trúc cơ bản tạo nên bộ khung liên tục của màng sinh chất là",các phân tử protein bám màng.,lớp kép phân tử phospholipid.,các phân tử lipid dạng cholesterol.,mạng lưới các chuỗi glycoprotein.,B
+11,"Trong cấu trúc màng sinh chất, thành phần nào sau đây đảm nhiệm vai trò hình thành các kênh vận chuyển đặc hiệu cho các chất đi qua màng?",Protein xuyên màng.,Phân tử cholesterol.,Lớp kép phospholipid.,Chuỗi carbohydrate.,A
+11,"Trong màng sinh chất của tế bào động vật, các phân tử cholesterol nằm xen kẽ giữa các phân tử phospholipid có vai trò sinh lí chủ yếu là",nhận diện các tế bào cùng loại trong mô.,gia tăng tính ổn định của cấu trúc màng.,xúc tác cho các phản ứng sinh hóa trên màng.,tiếp nhận thông tin từ môi trường bên ngoài.,B
+11,"Thành phần nào trên màng sinh chất hoạt động như một ""dấu chuẩn"" giúp các tế bào nhận biết nhau và phân biệt với các tế bào ngoại lai?",Các đuôi kị nước của phospholipid.,Các kênh protein xuyên màng.,Các phân tử mỡ (triglyceride).,Các phân tử glycoprotein.,D
+11,Đặc tính quan trọng nhất giúp màng sinh chất thực hiện chức năng kiểm soát chặt chẽ sự trao đổi chất giữa tế bào và môi trường là,tính đàn hồi cao.,tính thấm chọn lọc.,tính phân giải mạnh.,tính lưu động liên tục.,B

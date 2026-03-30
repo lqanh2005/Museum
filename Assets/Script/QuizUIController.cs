@@ -1,4 +1,4 @@
-﻿
+
 using System.Collections.Generic;
 using System.Linq;
 using TMPro;
@@ -35,17 +35,43 @@ public class QuizUIController : MonoBehaviour
     int[] _chosen;
     LeftItem[] _leftItems;
 
-
-    public void Init(string path, string pardId, string type)
+    // Giữ hàm cũ để không vỡ code đang gọi từ nơi khác
+    public void Init(string path, string partId, string type)
     {
-        // Load tất cả câu hỏi từ CSV (không lọc theo partId)
+        InitByPartId(path, partId, type);
+    }
+
+    // Hàm 1: chỉ load câu hỏi có partId tương ứng (không random)
+    public void InitByPartId(string path, string partIdParam, string type)
+    {
+        var allQuestions = CsvLoader.LoadQuestionsFromResources(path, partIdParam);
+        if (allQuestions == null || allQuestions.Count == 0)
+        {
+            Debug.LogError($"No questions loaded for partId: {partIdParam}");
+            return;
+        }
+
+        SetupQuiz(allQuestions, type);
+    }
+
+    // Hàm 2: load ngẫu nhiên tối đa 20 câu (không lọc partId)
+    public void InitRandom20(string path, string type)
+    {
         var allQuestions = CsvLoader.LoadQuestionsFromResources(path, null);
-        if (allQuestions == null || allQuestions.Count == 0) { Debug.LogError("No questions loaded"); return; }
+        if (allQuestions == null || allQuestions.Count == 0)
+        {
+            Debug.LogError("No questions loaded");
+            return;
+        }
 
-        // Chọn ngẫu nhiên 20 câu hỏi (hoặc ít hơn nếu không đủ 20)
         int questionCount = Mathf.Min(20, allQuestions.Count);
-        _qs = ShuffleAndTake(allQuestions, questionCount);
+        var randomQuestions = ShuffleAndTake(allQuestions, questionCount);
+        SetupQuiz(randomQuestions, type);
+    }
 
+    void SetupQuiz(List<Question> questions, string type)
+    {
+        _qs = questions;
         if (categoryText) categoryText.text = type;
         _chosen = new int[_qs.Count];
         for (int i = 0; i < _chosen.Length; i++) _chosen[i] = -1;
@@ -218,8 +244,11 @@ public class QuizUIController : MonoBehaviour
         }
 
 
-        txtScore.text = ((correct)*0.5f).ToString();
-        txtNumber.text = correct.ToString() + "/" + _qs.Count.ToString();
+        int n = _qs.Count;
+        float pointsPerQuestion = n > 0 ? 10f / n : 0f;
+        float totalScore = correct * pointsPerQuestion;
+        if (txtScore) txtScore.text = totalScore.ToString("F2");
+        if (txtNumber) txtNumber.text = correct.ToString() + "/" + n.ToString();
 
 
         int c = _qs[_idx].correct;

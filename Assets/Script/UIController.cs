@@ -17,11 +17,13 @@ public class UIController : MonoBehaviour
     public ContentController contentController;
     public TooltipUI tooltipUI;
     public Joystick joystick;
-
+    Color32 activeColor = new Color32(5, 118, 100, 100);
+    Color32 inactiveColor = new Color32(5, 118, 100, 0);
+    [Header("BottomPanel")]
     public Button btnChoice;
     public Button btnMove;
     public Image imgBtn;
-    public Button btnPlant, btnAnimal, btnNhanSo;
+    public Button btnPlant, btnAnimal, btnNhanSo, btnThanhTuu;
     public GameObject bottomPanel;
     public Button btnNext, btnBack;
     public TMP_Text number;
@@ -31,6 +33,24 @@ public class UIController : MonoBehaviour
 
     public Button btnClose_1;
     public GameObject panelIntro;
+
+    [Header("ThanhTuu")]
+    public Image imgThanhTuu;
+    public Button nextBtn;
+    public Button closeBtn;
+    public List<Sprite> thanhTuuSprites;
+
+    [Header("Button Popup")]
+    public GameObject buttonPopup;
+    public Button playVidBtn;
+    public Button detailBtn;
+    public Button questBtn;
+
+    enum PopupSource { None, Plant, Animal, NhanSo }
+    PopupSource _popupSource;
+    int _thanhTuuSpriteIndex;
+
+    public PathType currentPathType;
 
     // Biến để quản lý tooltip navigation
     private List<ClickAble> currentClickableList = new List<ClickAble>();
@@ -74,33 +94,25 @@ public class UIController : MonoBehaviour
         btnChoice.onClick.AddListener(() =>
         {
             imgBtn.gameObject.SetActive(!imgBtn.gameObject.activeSelf);
-            bottomPanel.SetActive(!bottomPanel.activeSelf);
-            btnPlant.onClick.AddListener(() =>
-            {
-                player.isPlant = true;
-                player.isNhanSo = false;
-                player.isAnimal = false;
-                joystick.gameObject.SetActive(false);
-            });
-
-
-            btnNhanSo.onClick.AddListener(() =>
-            {
-                player.isNhanSo = true;
-                player.isPlant = false;
-                player.isAnimal = false;
-                joystick.gameObject.SetActive(false);
-            });
-
-
-            btnAnimal.onClick.AddListener(() =>
-            {
-                player.isAnimal = true;
-                player.isPlant = false;
-                player.isNhanSo = false;
-                joystick.gameObject.SetActive(false);
-            });
         });
+        btnPlant.onClick.AddListener(() => OnClickCategory(btnPlant));
+        btnNhanSo.onClick.AddListener(() => OnClickCategory(btnNhanSo));
+        btnAnimal.onClick.AddListener(() => OnClickCategory(btnAnimal));
+        btnThanhTuu.onClick.AddListener(OnThanhTuuClick);
+
+        if (nextBtn != null)
+        {
+            nextBtn.onClick.RemoveAllListeners();
+            nextBtn.onClick.AddListener(OnThanhTuuNextClick);
+        }
+        if (closeBtn != null)
+        {
+            closeBtn.onClick.AddListener(() =>
+            {
+                if (imgThanhTuu != null)
+                    imgThanhTuu.gameObject.SetActive(false);
+            });
+        }
 
         // Setup navigation buttons
         if (btnNext != null)
@@ -111,8 +123,117 @@ public class UIController : MonoBehaviour
         {
             btnBack.onClick.AddListener(ShowPreviousTooltip);
         }
+
+        if (detailBtn != null)
+        {
+            detailBtn.onClick.RemoveAllListeners();
+            detailBtn.onClick.AddListener(OnDetailBtnClicked);
+        }
+        questBtn.onClick.AddListener(() =>
+        {
+            buttonPopup.gameObject.SetActive(false);
+            imgBtn.gameObject.SetActive(false);
+            player.isPlant = false;
+            player.isNhanSo = false;
+            player.isAnimal = false;
+            player.moveJoystick.gameObject.SetActive(false);
+            quizUIController.gameObject.SetActive(true);
+            if (_popupSource == PopupSource.None) return;
+
+            // Bạn đặt tên file CSV theo đúng enum _popupSource (VD: Plant, Animal, NhanSo)
+            var path = _popupSource.ToString();
+            var typeText = path.ToUpper();
+            quizUIController.InitRandom20(path, typeText);
+        });
     }
 
+    void OnDetailBtnClicked()
+    {
+        switch (_popupSource)
+        {
+            case PopupSource.Plant:
+                player.isPlant = true;
+                player.isNhanSo = false;
+                player.isAnimal = false;
+                break;
+            case PopupSource.NhanSo:
+                player.isNhanSo = true;
+                player.isPlant = false;
+                player.isAnimal = false;
+                break;
+            case PopupSource.Animal:
+                player.isAnimal = true;
+                player.isPlant = false;
+                player.isNhanSo = false;
+                break;
+        }
+
+        if (buttonPopup != null)
+            buttonPopup.SetActive(false);
+        if (imgThanhTuu != null)
+            imgThanhTuu.gameObject.SetActive(false);
+    }
+
+    void OnThanhTuuClick()
+    {
+        btnPlant.image.color = inactiveColor;
+        btnNhanSo.image.color = inactiveColor;
+        btnAnimal.image.color = inactiveColor;
+        btnThanhTuu.image.color = activeColor;
+
+        if (imgThanhTuu != null)
+        {
+            imgThanhTuu.gameObject.SetActive(true);
+            ApplyThanhTuuSpriteAtCurrentIndex();
+        }
+    }
+
+    void OnThanhTuuNextClick()
+    {
+        if (thanhTuuSprites == null || thanhTuuSprites.Count == 0) return;
+        _thanhTuuSpriteIndex = (_thanhTuuSpriteIndex + 1) % thanhTuuSprites.Count;
+        ApplyThanhTuuSpriteAtCurrentIndex();
+    }
+
+    void ApplyThanhTuuSpriteAtCurrentIndex()
+    {
+        if (imgThanhTuu == null || thanhTuuSprites == null || thanhTuuSprites.Count == 0) return;
+        _thanhTuuSpriteIndex = Mathf.Clamp(_thanhTuuSpriteIndex, 0, thanhTuuSprites.Count - 1);
+        imgThanhTuu.sprite = thanhTuuSprites[_thanhTuuSpriteIndex];
+    }
+
+    void OnClickCategory(Button clickedBtn)
+    {
+        btnPlant.image.color = inactiveColor;
+        btnNhanSo.image.color = inactiveColor;
+        btnAnimal.image.color = inactiveColor;
+        btnThanhTuu.image.color = inactiveColor;
+
+        clickedBtn.image.color = activeColor;
+
+        if (clickedBtn == btnPlant)
+        {
+            _popupSource = PopupSource.Plant;
+            currentPathType = PathType.thuc_vat;
+        }
+        else if (clickedBtn == btnNhanSo)
+        {
+            _popupSource = PopupSource.NhanSo;
+            currentPathType = PathType.nhan_so;
+        }
+        else if (clickedBtn == btnAnimal)
+        {
+            _popupSource = PopupSource.Animal;
+            currentPathType = PathType.dong_vat;
+        }
+        else
+            _popupSource = PopupSource.None;
+
+        if (imgThanhTuu != null)
+            imgThanhTuu.gameObject.SetActive(false);
+
+        buttonPopup.SetActive(true);
+    }
     // Method mới để bắt đầu navigation mode với tooltips
     public void StartTooltipNavigation(Transform parentTransform, List<ClickAble> curList)
     {

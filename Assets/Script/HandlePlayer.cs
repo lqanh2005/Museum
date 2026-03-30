@@ -243,11 +243,6 @@ public class PlayerController : MonoBehaviour
                 }
             }
 
-
-            if (moveJoystick != null && moveJoystick.gameObject.activeSelf)
-            {
-                moveJoystick.gameObject.SetActive(false);
-            }
         }
         else
         {
@@ -429,7 +424,7 @@ public class PlayerController : MonoBehaviour
 
 
 
-    void HandleMove()
+    public void HandleMove()
     {
         // Đảm bảo agent được enable và trên NavMesh
         if (agent == null) return;

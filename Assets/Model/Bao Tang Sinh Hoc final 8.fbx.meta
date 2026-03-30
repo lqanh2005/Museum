@@ -1,0 +1,659 @@
+fileFormatVersion: 2
+guid: a61d8ce0f635de941a73c624732706af
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DV_Centrosome
+    second: {fileID: 2100000, guid: ab747b77ce2b5c343ad5e26bb375e368, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DV_Gogil color
+    second: {fileID: 2100000, guid: e01bb2cc53e7b5d4dbd1f8d404d7becd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DV_Lysosomes
+    second: {fileID: 2100000, guid: e75de18e0bccccf499ad4498e1872f0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DV_Nhancon
+    second: {fileID: 2100000, guid: c04017bbc237fd041b684bca86e2fd15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DV_Ti the color.001
+    second: {fileID: 2100000, guid: c99b13910a5800343b81da06ec7fd2f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DV_Ti the color.002
+    second: {fileID: 2100000, guid: a54d6d7a2c32b874991c74a72706c5fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DV_Ti the color.003
+    second: {fileID: 2100000, guid: 9f8ec2626decc2e44b4d4fc41a874169, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DV_Vo nhan
+    second: {fileID: 2100000, guid: 96af20877f7b1f94693fbef8df5ed9e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DV_peroxisome
+    second: {fileID: 2100000, guid: 15acb8a621d926a48b0ef1cdb2e82063, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DV_ribosome
+    second: {fileID: 2100000, guid: 4d6de04523ac36c41bbd74b3fe4da259, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DV_tong the
+    second: {fileID: 2100000, guid: d83deb41cbe0bfc429d0cf78d62e1009, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass
+    second: {fileID: 2100000, guid: 7e90586fba88c1c43aa1379dc04438c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kim loai
+    second: {fileID: 2100000, guid: e1fa586e89c657843992d7dad3032ef7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Led yellow.001
+    second: {fileID: 2100000, guid: aadbae36c3868bd4294c644f40415100, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Long
+    second: {fileID: 2100000, guid: 24a14e9f711832d43944ffb0e5853809, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: cb221fd5685340f4aacab092798a177b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.009
+    second: {fileID: 2100000, guid: 1dece380a85e765438f7f4844ef60703, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_003.001
+    second: {fileID: 2100000, guid: 75c454f2dc5c62041912311786ef0e98, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_004.001
+    second: {fileID: 2100000, guid: d833effd2024c20418847384894cb42f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_005.001
+    second: {fileID: 2100000, guid: c180ca115f465144b8e4fecb106175a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_009.001
+    second: {fileID: 2100000, guid: 2aeaa5ee034c73846a6844432954be94, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_026.001
+    second: {fileID: 2100000, guid: d82756d8a36192548a66e71b61522a7b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_027.001
+    second: {fileID: 2100000, guid: 7945bd3e55f24c144b36791eb9344910, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NS_Mang sinh chat
+    second: {fileID: 2100000, guid: 53399b155156bd7459131bd37213719b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NS_Tong the
+    second: {fileID: 2100000, guid: cec684cd8942ff44fbaf52068bf2149a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Navaro Wood
+    second: {fileID: 2100000, guid: 4f8d09d99fe73674aaf4ef5e3d757dfb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Navaro Wood.002
+    second: {fileID: 2100000, guid: afb4b65987d2f084bb03cf274994cb8c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nhan
+    second: {fileID: 2100000, guid: a9ee42b84c6cbda41896c86c7e156a09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plasmid
+    second: {fileID: 2100000, guid: 6d0af82c3df5e31408f47f46e227182f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ROI anh
+    second: {fileID: 2100000, guid: c9932293a017216448f656809e9da789, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Riboxom
+    second: {fileID: 2100000, guid: 067e778980be9974e92bec7a3353fe6c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roi
+    second: {fileID: 2100000, guid: 4b063fb5c6d0cdd45b52e5126bc9d8c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Screen TV
+    second: {fileID: 2100000, guid: 017857ebb25116a4b86887a0561a6c0c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TV color
+    second: {fileID: 2100000, guid: 262454dc6e41b144bba7eacfdf3093c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TV-Luoi noi chat hat color.001
+    second: {fileID: 2100000, guid: a2cbfde46027b1d4998aead72ae4539c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TV.001
+    second: {fileID: 2100000, guid: 2fa512875f06c784ea6230e0853b05e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TV_Gogil color
+    second: {fileID: 2100000, guid: fd6d0cd81cbe2f24db989308812d6e2d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TV_Luc lap
+    second: {fileID: 2100000, guid: 549931e0c100b8c498833ec5fe962bc2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TV_Luc lap.001
+    second: {fileID: 2100000, guid: b35e87a5a950f2e42aad6485d972f116, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TV_Luoi noi chat tron
+    second: {fileID: 2100000, guid: e0e29bed69b47ed409004a4edc635424, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TV_Lysosome color.001
+    second: {fileID: 2100000, guid: f60c82cfe7d99de45b0e4c7ddb9ff9c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TV_Nhancon
+    second: {fileID: 2100000, guid: 35d695ba40a31184eb5313695c12909a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TV_Ribosome Color.001
+    second: {fileID: 2100000, guid: 8c024d17b9eab5e41a985b829f4b28fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TV_Ti the.001
+    second: {fileID: 2100000, guid: bc330a257deff7a4191761e303f0167b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TV_Ti the.002
+    second: {fileID: 2100000, guid: 80f200d5cde0ee54480289c1f1e7f95c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TV_Vo nhan
+    second: {fileID: 2100000, guid: 2f622737112043e4ba95e0f7525af763, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TV_loi nhan
+    second: {fileID: 2100000, guid: 6aade4fed65d42c4aa05b52ac691d907, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TV_mang sinh chat.001
+    second: {fileID: 2100000, guid: 8c74bec15398c6845b22baf7ef07192e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TV_nhan01
+    second: {fileID: 2100000, guid: b9e5964acb9c56f4fb45281f99bea1b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TV_thanh te bao
+    second: {fileID: 2100000, guid: ad2c8f202f2be304eb03ba73a0c573d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Te bao
+    second: {fileID: 2100000, guid: c1f650ac7c48b61419956af15d42c00e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Te bao thuc vat anh
+    second: {fileID: 2100000, guid: cdb60dde677cbd143b26de5632cef765, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Te bao.001
+    second: {fileID: 2100000, guid: 40022c5aeff43174ba6cec3bb4688998, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Te bao.002
+    second: {fileID: 2100000, guid: 810dac51fa8f3a34da521b85045e9ee9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Thanh  te bao 2
+    second: {fileID: 2100000, guid: 798a81644d0e57c4dbb9a345494516b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood.001
+    second: {fileID: 2100000, guid: 12ac18e4c8121474686667519da785ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: black
+    second: {fileID: 2100000, guid: c4e126a0182c59b47af6c9ffdc6ec033, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: color_14789940.002
+    second: {fileID: 2100000, guid: 186f1a1bd5062634f95679e6ae2c8ef1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: color_16089887.002
+    second: {fileID: 2100000, guid: 0e9c00985cceab74789671ef90ed1480, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: color_7720667.002
+    second: {fileID: 2100000, guid: b70d9b141a1ddee47b29d349866a5efd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: floor
+    second: {fileID: 2100000, guid: 4bcbae20c8943ef4cbe259d43e0ebe18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glass dvere
+    second: {fileID: 2100000, guid: 5def95dd54f04a748afedab0892260bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grey
+    second: {fileID: 2100000, guid: 0ed8e463a1a09104bb4783922bb38d57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: l_wall.001
+    second: {fileID: 2100000, guid: 7f6c29231a6c8514f8ce383b435ea070, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: e4312759930162e4782508a2776c6210, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nha khoa hoc
+    second: {fileID: 2100000, guid: 818e454319c55544384425c42ef77a08, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nha khoa hoc.001
+    second: {fileID: 2100000, guid: 80671f0ed16154a4b949513a5ae324bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plastic
+    second: {fileID: 2100000, guid: 795a83c7cf87284458bf142a31bddb8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prah.002
+    second: {fileID: 2100000, guid: 1b0848b4d49dce54da35e85845f5d95b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: r_wall
+    second: {fileID: 2100000, guid: 1907d1e48013a1e45a47341a547f6dc8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roidv_color
+    second: {fileID: 2100000, guid: 0ebeecbb5212f1c4fa609767cabb7300, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stainless
+    second: {fileID: 2100000, guid: 0022a214171eef04d9c8a715e6e44e72, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: te bao dong vat anh
+    second: {fileID: 2100000, guid: 9b0b5b24f5cfd5c42a6844c986903698, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: te bao dong vat anh.001
+    second: {fileID: 2100000, guid: 2365bf0f87c621e498688f113c63d95b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: te bao nhan so anh
+    second: {fileID: 2100000, guid: 77bccfb723d619b4599a4eeffe1d859d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: textColor
+    second: {fileID: 2100000, guid: 2c25322a7b977454f90239fd064501f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wall
+    second: {fileID: 2100000, guid: c7d87f98e69159046b448dc5efadc2e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wall.001
+    second: {fileID: 2100000, guid: 6189a6396f480e344983c8f63feb3627, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wall.002
+    second: {fileID: 2100000, guid: acc0c3fe1f10f7644854f67f3743784a, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "1. V\u1EBC C\u1EA4U T\u1EA0O CHUNG"
+    second: {fileID: 2800000, guid: 18814deb7e166b74586971e0978fef85, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "1. V\u1EBC C\u1EA4U T\u1EA0O CHUNG 1 "
+    second: {fileID: 2800000, guid: 65dd9ba573506a74b95d3f0cec0d71c5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "12. M\xC0NG SINH CH\xC2T 1"
+    second: {fileID: 2800000, guid: eec1852c406de8e41903a3867aa26056, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 18
+    second: {fileID: 2800000, guid: dac42692bcde02a409543fad41a41b97, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 20
+    second: {fileID: 2800000, guid: 34386f902424d454e911e225f2dc25ae, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Alpha_bake
+    second: {fileID: 2800000, guid: 24454cf7d5b7a90449efa147fb70f8c4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Anthonie_van_Leeuwenhoek_(1632-1723)._Natuurkundige_te_Delft_Rijksmuseum_SK-A-957
+    second: {fileID: 2800000, guid: 309ca5e996032ea4c995388619b5d70b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Bookshelf bake
+    second: {fileID: 2800000, guid: aefa055a32f14fd4585b4f8243b839cf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DV_Atlas bake
+    second: {fileID: 2800000, guid: eb66df3146122f240b36a59193cffe7f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DV_Gogil color
+    second: {fileID: 2800000, guid: cb36981e91c1fcb4d8706a557abd45bd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DV_Nhan
+    second: {fileID: 2800000, guid: 4540af735cb4bf842ba19df2d2d0e70e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DV_Roi
+    second: {fileID: 2800000, guid: e2a6b36d3d929064ab735cd8ed3a49ca, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DV_Tong the
+    second: {fileID: 2800000, guid: d2e56e6d458b03e4ea393defa35c80be, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 'LED '
+    second: {fileID: 2800000, guid: 74e5b8c1fa5ef91418ed797d3a6f751b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: L_wall
+    second: {fileID: 2800000, guid: f1cf061309be2a9418c63e05b1dd99f3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: NS_Tong the
+    second: {fileID: 2800000, guid: e6e302a5ee57e6f4ebffab959fdef989, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Navaro Wood_4k_Albedo
+    second: {fileID: 2800000, guid: 09a292c61238d3b4685090168946f6ea, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Navaro Wood_4k_Normal
+    second: {fileID: 2800000, guid: 4db9f11c2cb4f3f43a4fd69f18466838, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Navaro Wood_4k_Roughness
+    second: {fileID: 2800000, guid: f37a20636251aca4b8e837426091ad41, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Navaro Wood_4k_Specular
+    second: {fileID: 2800000, guid: 795e68dfd8295dd4596136ec879ba529, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: R_wall
+    second: {fileID: 2800000, guid: 7d4348fa0b2b0ad45aa237ddf12fed44, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Robert Hooke
+    second: {fileID: 2800000, guid: c4fa1e0ed1a2ee24296efa86101e3173, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Roicolor2
+    second: {fileID: 2800000, guid: ad8d1b0b503146142ba27e58c52444c5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Screen TV back
+    second: {fileID: 2800000, guid: 5179d938470021d4b9b586c04cc727a4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TV_Atlas
+    second: {fileID: 2800000, guid: aff207cfc7537d04ca233a8300f1b32d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "nh\xE2nth\u1EF1c \u0111\u1ED9ngv\u1EADt"
+    second: {fileID: 2800000, guid: c44cafa0f1dee794caa5985edc7ca2b3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: pexisome texture
+    second: {fileID: 2800000, guid: 43ab04a0185035b4c840da06e729c9ff, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: roi
+    second: {fileID: 2800000, guid: 16556cf4b6efb4c4fa2e7389fd79c122, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: woodcreator_1_basecolor
+    second: {fileID: 2800000, guid: 7cc7ebd9ca792ff4392d9d0d63b4d9f4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: woodcreator_1_metallic
+    second: {fileID: 2800000, guid: 2a3f09181557ee444a0c512d4bfc573a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: woodcreator_1_roughness
+    second: {fileID: 2800000, guid: 46e1d6f1a8433e74ebf8b77ab6f04732, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

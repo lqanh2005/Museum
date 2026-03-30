@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Threading.Tasks;
@@ -25,6 +25,11 @@ public static class CsvLoader
             if (cols.Count < 7) continue;
 
             string partId = cols[0].Trim();
+            if (!string.IsNullOrWhiteSpace(onlyPartId) &&
+                !string.Equals(partId, onlyPartId.Trim(), StringComparison.OrdinalIgnoreCase))
+            {
+                continue;
+            }
 
             var q = new Question
             {
@@ -36,6 +41,39 @@ public static class CsvLoader
             list.Add(q);
         }
         return list;
+    }
+
+    // Load random số lượng câu hỏi từ file CSV trong Resources (mặc định 20 câu).
+    // Nếu ít hơn số lượng yêu cầu thì sẽ trả về toàn bộ và log warning.
+    public static List<Question> LoadRandomQuestionsFromResources(string path = "quiz", int count = 20, string onlyPartId = null)
+    {
+        var allQuestions = LoadQuestionsFromResources(path, onlyPartId);
+        if (allQuestions == null || allQuestions.Count == 0) return new List<Question>();
+
+        if (allQuestions.Count <= count)
+        {
+            // Trộn nhẹ để UI vẫn thấy thứ tự không quá giống nhau.
+            var shuffled = new List<Question>(allQuestions);
+            ShuffleInPlace(shuffled);
+            return shuffled;
+        }
+
+        var list = new List<Question>(allQuestions);
+        ShuffleInPlace(list);
+        return list.GetRange(0, count);
+    }
+
+    static void ShuffleInPlace(List<Question> list)
+    {
+        // Fisher-Yates shuffle
+        for (int i = list.Count - 1; i > 0; i--)
+        {
+            // Explicit UnityEngine.Random để tránh mơ hồ với System.Random
+            int j = UnityEngine.Random.Range(0, i + 1);
+            var tmp = list[i];
+            list[i] = list[j];
+            list[j] = tmp;
+        }
     }
 
 
