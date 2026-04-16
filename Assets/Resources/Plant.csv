@@ -1,21 +1,21 @@
-partID,title,optA,optB,optC,optD,correct
-1,Thành tế bào thực vật được cấu tạo chủ yếu từ chất nào?,Chitin,Cellulose,Protein,Lipid,B
-1,Màng sinh chất được cấu tạo chủ yếu từ thành phần nào?,DNA và RNA,Cellulose và chitin,Lớp kép phospholipid xen kẽ với protein,Polysaccharide và lipid đơn,C
-1,Đuôi kị nước của phân tử phospholipid trong màng sinh chất có đặc điểm nào?,Quay ra ngoài tiếp xúc với môi trường nước,"Quay vào nhau ở phía giữa hai lớp, giúp ổn định cấu trúc màng",Liên kết trực tiếp với protein xuyên màng,Tạo thành cầu nối với ribosome,B
-1,"Tế bào chất là phần nằm giữa ________ và ________, chứa nhiều bào quan và tham gia vào các hoạt động sống của tế bào.",Màng sinh chất; nhân,Thành tế bào; màng sinh chất,Nhân; lưới nội chất,Ty thể; màng sinh chất,A
-1,"Trong lục lạp, các túi dẹt (thylakoid) xếp chồng lên nhau tạo thành cấu trúc gì?",Stroma,Ribosome,Màng kép,Grana,D
-1,Sắc tố chính trong lục lạp giúp hấp thụ ánh sáng là gì?,Xanthophyll,Anthocyanin,Carotenoid,Chlorophyll,D
-1,Chức năng chính của lục lạp là gì?,Quang hợp,Tổng hợp protein,Dự trữ lipid,Hô hấp tế bào,A
-1,"Ti thể là bào quan có vai trò quan trọng trong việc ________ để cung cấp năng lượng cho tế bào, quá trình này diễn ra chủ yếu tại ________.",Quang hợp; màng ngoài,Hô hấp tế bào; màng trong,Vận chuyển; ribosome,Tổng hợp DNA; chất nền,B
-1,Chức năng chính của ti thể là gì?,Quang hợp,Tổng hợp protein,"Nhà máy năng lượng của tế bào, thực hiện hô hấp tế bào và tổng hợp ATP",Dự trữ tinh bột,C
-1,Peroxisome có đặc điểm cấu tạo nào sau đây?,"Có màng kép, dạng hình cầu","Có màng đơn mỏng, dạng hình cầu",Không có màng bao bọc,Chỉ có ở tế bào động vật,B
-1,"Peroxisome là bào quan có màng đơn, chứa enzyme xúc tác quá trình ________ các acid béo và phân hủy ________ thành nước và oxy.",Phân giải; DNA,Khử độc; glucose,Tổng hợp; protein,Oxy hóa; hydrogen peroxide (H₂O₂),D
-1,Chức năng nào sau đây của không bào giúp duy trì sự ổn định của tế bào thực vật?,Tổng hợp protein,Quang hợp,Vận chuyển electron,Điều hoà áp suất thẩm thấu,D
-1,"Không bào ở tế bào thực vật thường có kích thước lớn, chứa ________ và các chất hòa tan, có vai trò duy trì ________ cũng như tham gia vào quá trình trao đổi chất.",Lipid; hô hấp tế bào,Protein; tổng hợp DNA,Nước; áp suất thẩm thấu,Enzyme; quang hợp,C
-1,Điểm khác biệt cơ bản giữa lưới nội chất trơn và lưới nội chất hạt là gì?,Lưới nội chất trơn có nhiều ribosome bám trên màng,Lưới nội chất trơn không tham gia tổng hợp lipid,Lưới nội chất trơn không liên kết với lưới nội chất hạt,Lưới nội chất trơn không có hoặc có rất ít ribosome bám trên màng,D
-1,Lưới nội chất hạt có đặc điểm gì nổi bật?,Không có ribosome,"Có ribosome bám trên màng, tham gia tổng hợp protein",Chỉ tổng hợp lipid,Chỉ dự trữ Ca²⁺,B
-1,Lưới nội chất trơn có chức năng nào sau đây?,Tổng hợp protein,"Tổng hợp lipid, chuyển hoá đường, khử độc và dự trữ Ca²⁺",Tổng hợp DNA,Vận chuyển RNA,B
-1,Ribosome của tế bào nhân thực gồm hai tiểu đơn vị nào?,30S và 50S,40S và 60S,20S và 40S,70S và 80S,B
-1,Phần lớn nhân tế bào có hình dạng và kích thước như thế nào?,"Hình cầu, đường kính khoảng 5 µm","Hình trụ, đường kính khoảng 10 µm","Hình lập phương, đường kính khoảng 2 µm","Hình bầu dục, đường kính khoảng 1 µm",A
-1,"Bộ máy Golgi gồm nhiều túi màng dẹt xếp chồng lên nhau, có chức năng chính là ________ và ________ các sản phẩm do lưới nội chất tổng hợp trước khi vận chuyển.",Tổng hợp; phân giải,Chế biến; đóng gói,Vận chuyển; dự trữ Ca²⁺,Phân giải; hô hấp,B
-1,Khung xương tế bào gồm những thành phần nào?,"Vi sợi, sợi trung gian và vi ống","Ribosome, lưới nội chất và ti thể","Lysosome, không bào và peroxisome","Màng sinh chất, nhân và chất nền",A
+partId,title,optA,optB,optC,optD,correct
+1,Thành tế bào bao quanh màng sinh chất có ở tế bào nào sau đây?,Tế bào động vật,Tế bào vi khuẩn,Tế bào thực vật và nấm,Tế bào nguyên sinh chất,C
+1,Chức năng chính của thành tế bào là gì?,"Tổng hợp protein, dự trữ năng lượng và nước","Bảo vệ, cố định hình dạng và điều chỉnh lượng nước ra vào tế bào","Dự trữ năng lượng, tổng hợp protein và thực hiện hô hấp","Thực hiện quang hợp, dự trữ năng lượng và muối khoáng",B
+1,Màng sinh chất được cấu tạo chủ yếu từ thành phần nào sau đây?,DNA và RNA,Cellulose và chitin,Lớp kép phospholipid xen kẽ với protein,Polysaccharide và lipid đơn,C
+1,Chức năng nào sau đây là của màng sinh chất?,Bảo vệ tế bào và kiểm soát trao đổi chất với môi trường,Tổng hợp DNA và RNA,Dự trữ Ca2+ để co cơ,Phân giải glycogen điều hòa đường huyết,A
+1,"Tế bào chất là phần nằm giữa ________ và ________, chứa nhiều bào quan và tham gia vào các hoạt động sống của tế bào.",màng sinh chất; nhân,thành tế bào; màng sinh chất,nhân; lưới nội chất,ty thể; màng sinh chất,A
+2,Thành phần nào sau đây KHÔNG có trong bào tương?,DNA và RNA,Enzyme,Carbohydrate,Chất vô cơ,A
+2,Sắc tố chính trong lục lạp giúp hấp thụ ánh sáng là,xanthophyll,anthocyanin,carotenoid,chlorophyll,D
+2,"Trong lục lạp, các túi dẹt (thylakoid) xếp chồng lên nhau tạo thành cấu trúc nào sau đây?",Stroma,Ribosome,Màng kép,Grana,D
+2,Ti thể có đặc điểm cấu tạo nào sau đây?,"Có màng đơn, dài khoảng 0,5 – 10 µm","Có màng kép, dài khoảng 0,5 – 10 µm","Không có màng, dài khoảng 1 – 2 µm",Chỉ có một lớp màng ngoài,B
+2,Màng trong của ti thể có đặc điểm nào sau đây?,"Trơn nhẵn, không gấp nếp",Gấp nếp hình răng lược tạo thành các mào (cristae),Chỉ chứa DNA,Không có enzyme,B
+3,Peroxisome có đặc điểm cấu tạo nào sau đây?,"Có màng kép, dạng hình cầu","Chỉ có ở tế bào động vật, dạng hình cầu","Không có màng bao bọc, dạng hình cầu","Có màng đơn mỏng, dạng hình cầu",D
+3,Chức năng nào sau đây KHÔNG phải của không bào?,Điều hoà áp suất thẩm thấu,Tổng hợp protein,Chứa chất thải hoặc sắc tố,Dự trữ muối khoáng và đường,B
+3,Điểm khác biệt cơ bản giữa lưới nội chất trơn và lưới nội chất hạt là lưới nội chất trơn,có nhiều ribosome bám trên màng,không tham gia tổng hợp lipid,không liên kết với lưới nội chất hạt,không có hoặc có rất ít ribosome bám trên màng,D
+3,Lưới nội chất hạt có đặc điểm nổi bật nào sau đây?,"Không có ribosome, tham gia tổng hợp protein","Có ribosome bám trên màng, tham gia tổng hợp protein",Tổng hợp lipid và tổng hợp protein,Có ribosome bám trên màng và dự trữ Ca2+,B
+3,Ribosome có đặc điểm cấu tạo nào sau đây?,"Có màng bao bọc, dạng hình cầu","Không có màng bao bọc, dạng hình cầu","Có màng bao bọc, dạng hình tròn","Không có màng bao bọc, dạng hình dẹt",B
+4,Phần lớn nhân tế bào có hình dạng và kích thước nào sau đây?,"Hình cầu, đường kính khoảng 5 µm","Hình trụ, đường kính khoảng 10 µm","Hình dẹt, đường kính khoảng 2 µm","Hình bầu dục, đường kính khoảng 1 µm",A
+4,Chức năng chính của nhân tế bào là,tổng hợp lipid.,dự trữ năng lượng.,trung tâm điều khiển các hoạt động sống của tế bào.,vận chuyển chất dinh dưỡng.,C
+4,Chức năng chính của bộ máy Golgi là,"quang hợp, tổng hợp đường và vận chuyển sản phẩm từ lưới nội chất","tổng hợp, phân loại và sửa đổi DNA và RNA","sửa đổi, phân loại, đóng gói và vận chuyển sản phẩm từ lưới nội chất",dự trữ tinh bột và vận chuyển sản phẩm từ lưới nội chất,C
+4,Vai trò nào sau đây KHÔNG thuộc về khung xương tế bào?,Nâng đỡ và duy trì hình dạng tế bào,Neo giữ các bào quan và enzyme,Hình thành trung thể tham gia phân bào,Tổng hợp protein,D
+4,"Trong quá trình phân bào, khung xương tế bào có vai trò đặc biệt nào sau đây?",Tổng hợp lipid,Hình thành trung thể và thoi vô sắc,Vận chuyển mRNA,Dự trữ Ca2+,B
