@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Video;
 using TMPro;
 
 public class UIController : MonoBehaviour
@@ -46,7 +48,20 @@ public class UIController : MonoBehaviour
     public Button detailBtn;
     public Button questBtn;
 
-    enum PopupSource { None, Plant, Animal, NhanSo }
+    [Header("Video (StreamingAssets)")]
+    [SerializeField] private VideoPlayer videoPlayer;
+    [Tooltip("Nếu có, sẽ bật khi bấm phát video.")]
+    [SerializeField] private GameObject videoPanel;
+    [Tooltip("Hiển thị khi phát video; tắt khi bấm Btn Close Raw Image.")]
+    public RawImage rawImage;
+    public Button btnCloseRawImage;
+
+    [Header("View Full")]
+    public Image viewFull;
+    public List<Sprite> viewFullSprites;
+    public Button viewFullBtn;
+    public Button closeViewBtn;
+    enum PopupSource { None = 0, Plant = 1, Animal = 2, NhanSo = 3 }
     PopupSource _popupSource;
     int _thanhTuuSpriteIndex;
 
@@ -94,6 +109,14 @@ public class UIController : MonoBehaviour
         btnChoice.onClick.AddListener(() =>
         {
             imgBtn.gameObject.SetActive(!imgBtn.gameObject.activeSelf);
+            if(imgBtn.gameObject.activeSelf == false)
+            {
+                player.isPlant = false;
+                player.isNhanSo = false;
+                player.isAnimal = false;
+                player.moveJoystick.gameObject.SetActive(true);
+            }
+            else player.moveJoystick.gameObject.SetActive(false);
         });
         btnPlant.onClick.AddListener(() => OnClickCategory(btnPlant));
         btnNhanSo.onClick.AddListener(() => OnClickCategory(btnNhanSo));
@@ -129,6 +152,27 @@ public class UIController : MonoBehaviour
             detailBtn.onClick.RemoveAllListeners();
             detailBtn.onClick.AddListener(OnDetailBtnClicked);
         }
+        if (playVidBtn != null)
+        {
+            playVidBtn.onClick.RemoveAllListeners();
+            playVidBtn.onClick.AddListener(OnPlayVidClicked);
+        }
+        if (btnCloseRawImage != null)
+        {
+            btnCloseRawImage.onClick.RemoveAllListeners();
+            btnCloseRawImage.onClick.AddListener(OnCloseRawImageClicked);
+        }
+        viewFullBtn.onClick.AddListener(() =>
+        {
+            if (viewFullSprites == null || viewFullSprites.Count == 0) return;
+            viewFull.gameObject.SetActive(true);
+            viewFull.sprite = viewFullSprites[(int)_popupSource - 1];
+        });
+        closeViewBtn.onClick.AddListener(() =>
+        {
+            viewFull.gameObject.SetActive(false);
+        });
+
         questBtn.onClick.AddListener(() =>
         {
             buttonPopup.gameObject.SetActive(false);
@@ -142,9 +186,90 @@ public class UIController : MonoBehaviour
 
             // Bạn đặt tên file CSV theo đúng enum _popupSource (VD: Plant, Animal, NhanSo)
             var path = _popupSource.ToString();
-            var typeText = path.ToUpper();
+            string typeText;
+            switch (_popupSource)
+            {
+                case PopupSource.Plant:
+                    typeText = "Tế bào thực vật";
+                    break;
+                case PopupSource.Animal:
+                    typeText = "Tế bào động vật";
+                    break;
+                case PopupSource.NhanSo:
+                    typeText = "Tế bào nhân sơ";
+                    break;
+                default:
+                    typeText = "Unknown";
+                    break;
+            }
             quizUIController.InitRandom20(path, typeText);
         });
+    }
+
+    void OnPlayVidClicked()
+    {
+        if (_popupSource == PopupSource.None)
+        {
+            Debug.LogWarning("Chưa chọn danh mục (thực vật / động vật / nhân số). Không có video tương ứng.");
+            return;
+        }
+
+        if (videoPlayer == null)
+        {
+            Debug.LogWarning("Chưa gán VideoPlayer trên UIController.");
+            return;
+        }
+
+        string fileName = $"{currentPathType}.mp4";
+        string absolutePath = Path.Combine(Application.streamingAssetsPath, fileName);
+
+#if !UNITY_ANDROID && !UNITY_WEBGL
+        if (!File.Exists(absolutePath))
+        {
+            Debug.LogError($"Không tìm thấy video: {absolutePath}");
+            return;
+        }
+#endif
+
+        videoPlayer.source = VideoSource.Url;
+        videoPlayer.url = BuildStreamingVideoUrl(absolutePath);
+        if (videoPanel != null)
+            videoPanel.SetActive(true);
+        if (rawImage != null)
+            rawImage.gameObject.SetActive(true);
+
+        videoPlayer.Stop();
+        videoPlayer.Play();
+    }
+
+    void OnCloseRawImageClicked()
+    {
+        if (videoPlayer != null)
+            videoPlayer.Stop();
+
+        if (rawImage != null)
+            rawImage.gameObject.SetActive(false);
+
+        if (videoPanel != null)
+            videoPanel.SetActive(false);
+    }
+
+    /// <summary>
+    /// VideoPlayer.url cần URL phù hợp từng nền tảng; StreamingAssets trên Android/WebGL khác PC.
+    /// </summary>
+    static string BuildStreamingVideoUrl(string absolutePath)
+    {
+        string normalized = absolutePath.Replace("\\", "/");
+
+#if UNITY_ANDROID && !UNITY_EDITOR
+        return normalized;
+#elif UNITY_WEBGL && !UNITY_EDITOR
+        return normalized;
+#else
+        if (normalized.Contains("://"))
+            return normalized;
+        return "file://" + normalized;
+#endif
     }
 
     void OnDetailBtnClicked()
@@ -266,6 +391,7 @@ public class UIController : MonoBehaviour
         if (btnNext != null) btnNext.gameObject.SetActive(true);
         if (btnBack != null) btnBack.gameObject.SetActive(true);
         if (number != null) number.gameObject.SetActive(true);
+        if (viewFullBtn != null) viewFullBtn.gameObject.SetActive(true);
     }
 
     // Hiển thị tooltip tại index cụ thể
@@ -360,6 +486,7 @@ public class UIController : MonoBehaviour
         if (btnNext != null) btnNext.gameObject.SetActive(false);
         if (btnBack != null) btnBack.gameObject.SetActive(false);
         if (number != null) number.gameObject.SetActive(false);
+        if (viewFullBtn != null) viewFullBtn.gameObject.SetActive(false);
     }
 
     public void ShowTooltipForClickable(ClickAble clickable)

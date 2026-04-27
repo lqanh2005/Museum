@@ -1,4 +1,4 @@
-partId,title,optA,optB,optC,optD,correct
+partID,title,optA,optB,optC,optD,correct
 1,Lông nhung ở vi khuẩn có đặc điểm nào sau đây?,"Ngắn, số lượng ít","Ngắn, số lượng nhiều","Dài, số lượng nhiều","Dài, số lượng ít",B
 1,Chức năng chính của lông nhung ở tế bào vi khuẩn là gì?,Giúp tế bào di chuyển trong môi trường.,Bảo vệ tế bào khỏi nhiệt độ cao.,Giúp vi khuẩn bám dính vào bề mặt tế bào vật chủ.,Tổng hợp lipid cho màng sinh chất.,C
 2,Roi của tế bào nhân sơ có cấu tạo chủ yếu từ loại đại phân tử nào sau đây?,Polysaccharide.,Lipid kép.,Protein.,Nucleic acid.,C
@@ -6,7 +6,7 @@ partId,title,optA,optB,optC,optD,correct
 2,Đặc điểm nào sau đây mô tả đúng về cấu tạo của roi ở tế bào nhân sơ?,"Sợi ngắn, nhiều.",Có màng bọc.,"Sợi dài, xoắn.",Dạng ống rỗng.,C
 3,Thành phần hóa học chủ yếu của lớp vỏ nhầy ở vi khuẩn là,peptidoglycan.,lớp kép phospholipid.,protein.,polysaccharide.,D
 3,Chức năng bảo vệ của lớp vỏ nhầy đối với vi khuẩn gây bệnh là,chống thực bào.,giúp bơi lội.,chống đột biến.,giúp hô hấp.,A
-4,Thành tế bào vi khuẩn được cấu tạo từ thành phần hóa học nào sau đây?,Cellulose.,Chitin.,Peptidoglycan.,Cholesterol.,C
+4,Thành tế bào vi khuẩn được cấu tạo từ  thành phần hóa học nào sau đây?,Cellulose.,Chitin.,Peptidoglycan.,Cholesterol.,C
 4,Vai trò quan trọng nhất của thành tế bào là,dự trữ năng lượng cho các hoạt động sống.,kiểm soát các chất đi ra và đi vào tế bào.,duy trì hình dạng và chống lại áp lực thẩm thấu.,tham gia trực tiếp vào quá trình tổng hợp protein.,C
 5,Màng sinh chất ở tế bào nhân sơ có cấu tạo gồm hai thành phần chính là,peptidoglycan và protein.,lớp kép phospholipid và protein.,cholesterol và polysaccharide.,cellulose và lipid.,B
 5,Chức năng nào sau đây không phải của màng sinh chất ở vi khuẩn?,Trao đổi chất có chọn lọc.,Là nơi diễn ra quá trình hô hấp tế bào.,Ngăn cách tuyệt đối tế bào chất với môi trường.,Tiếp nhận thông tin từ môi trường.,C
@@ -18,3 +18,15 @@ partId,title,optA,optB,optC,optD,correct
 8,Vai trò chính của plasmid đối với đời sống của tế bào vi khuẩn là,giúp di chuyển.,kháng kháng sinh.,giúp hô hấp.,giúp bám dính.,B
 9,Đặc điểm của vùng nhân ở tế bào nhân sơ so với tế bào nhân thực là,có màng nhân.,không màng nhân.,có nhân con.,chứa protein.,B
 9,Bản chất của vật chất di truyền ở vùng nhân tế bào nhân sơ là gì?,Một DNA vòng.,Hai DNA vòng.,Một DNA thẳng.,Hai DNA thẳng.,A
+10,Tế bào nhân sơ KHÔNG có đặc điểm nào sau đây?,Thành tế bào được cấu tạo chủ yếu bởi peptidoglycan.,Có nhân hoàn chỉnh và các bào quan có màng bao bọc.,Chất di truyền là một phân tử DNA trần dạng vòng kép.,"Có kích thước rất nhỏ, khoảng 0.5 đến 5,0μm.",B
+10,Tỉ lệ S / V (diện tích bề mặt/thể tích) lớn ở tế bào nhân sơ giúp chúng thực hiện chức năng nào sau đây một cách hiệu quả?,Trao đổi chất với môi trường một cách nhanh chóng.,Thực hiện các phản ứng sinh hoá phức tạp hơn.,Kháng lại áp lực thẩm thấu của môi trường.,Tổng hợp protein nhanh hơn so với tế bào nhân thực.,A
+10,Chức năng tạo hình dạng và sự cứng chắc của thành tế bào giúp tế bào vi khuẩn chống lại áp lực nào sau đây?,Áp lực của không khí lên bề mặt tế bào.,Áp lực của các bào quan bên trong đẩy ra ngoài.,Áp lực của nước đi vào tế bào.,Áp lực do sự di chuyển của roi tạo ra.,C
+10,Thành tế bào vi khuẩn được cấu tạo bởi chất nào sau đây?,Cellulose.,Chitin.,Lớp kép phospholipid.,Peptidoglycan.,D
+10,Màng sinh chất ở tế bào nhân sơ được cấu tạo từ,polysaccharide và protein.,lớp kép phospholipid và protein.,peptidoglycan và DNA.,protein và DNA vòng.,B
+11,Một số quá trình chuyển hoá vật chất và năng lượng quan trọng diễn ra trên màng sinh chất của tế bào nhân sơ vì,các enzyme cần thiết chỉ có thể hoạt động trên bề mặt kị nước.,tế bào nhân sơ không có thành tế bào.,màng sinh chất được cấu tạo từ peptidoglycan.,tế bào nhân sơ không có các bào quan có màng bao bọc.,D
+11,Roi của tế bào nhân sơ được cấu tạo từ loại phân tử nào sau đây?,Polysaccharide.,Lipid,Protein.,DNA.,C
+11,Cấu trúc giúp vi khuẩn có khả năng di động trong môi trường lỏng là,lông nhung.,roi.,vỏ nhầy.,thành tế bào.,B
+11,Plasmid là những phân tử DNA có đặc điểm cấu tạo như thế nào?,Dạng thẳng lớn.,Dạng vòng nhỏ.,Dạng mạch đơn.,Dạng xoắn đơn.,B
+11,Bào quan duy nhất có mặt ở tế bào nhân sơ và tế bào nhân thực là,Ribosome.,Ti thể.,Lục lạp.,Trung thể.,A
+11,Chức năng chính của lông nhung ở tế bào vi khuẩn là gì?,Giúp tế bào di chuyển trong môi trường.,Bảo vệ tế bào khỏi nhiệt độ cao.,Giúp vi khuẩn bám dính vào bề mặt tế bào vật chủ.,Tổng hợp lipid cho màng sinh chất.,C
+11,Chức năng bảo vệ của lớp vỏ nhầy đối với vi khuẩn gây bệnh là,chống thực bào.,giúp bơi lội.,chống đột biến.,giúp hô hấp.,A
